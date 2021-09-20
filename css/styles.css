@@ -7,6 +7,14 @@ body{
     padding: 0
 }
 /* Header */
+header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+}
 .hiking-header .container{
     padding-top: 20px;
     display: flex;
@@ -75,7 +83,7 @@ body{
 }
 /* Banner */
 .hiking-banner{
-    margin-top: -30px;
+    margin-top: 94px;
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -349,10 +357,10 @@ body{
     z-index: 1;
 }
 .hiking-explore .explore-text{
-    padding-top: 560px;
+    padding-top: 600px;
 }
 .hiking-explore .explore-text p{
-    font-size: 80px;
+    font-size: 90px;
     letter-spacing: 4px;
     font-weight: 800;
     text-align: right;
@@ -578,3 +586,31 @@ body{
     font-size: 21px;
     font-weight: 300;
 }
+/* Button scroll Top */
+#btnScrolltoTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e2a355;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    z-index: 999;
+    transform: translateX(100px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+#btnScrolltoTop.active{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  #btnScrolltoTop:active{
+    background-color: #deb37e ;
+  }
