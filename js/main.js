@@ -7,7 +7,7 @@ $( document ).ready(function() {
     autoplay: true,
     dots: true,
     arrows: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     speed: 1500,
     fade: true,
     cssEase: 'linear'
@@ -34,7 +34,7 @@ $( document ).ready(function() {
       }) 
 
       $('.carousel').carousel({
-          interval: 3500 * 1
+          interval: 4000 * 1
       });
 
 });
