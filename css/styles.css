@@ -622,7 +622,7 @@ body{
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 0.7s ease-out;
+    transition: 0.5s ease-out;
 }
 .hiking-footer .footer-list .footer-col ul li a:hover{
     background-position: -100%;
