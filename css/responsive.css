@@ -3,3 +3,34 @@
         max-width: 1300px;
     }
 }
+@media(min-width: 1023px){
+    .hiking-nav ul li:hover::before{
+        transform: scale(1);
+        color: #54524f;
+    }
+    .hiking-banner .banner-text a:hover{
+        color: #fefdfd;
+        background-color: #776c64;
+    }
+    .hiking-menu .container-fluid .image-list .col-img:hover{
+        box-shadow: 0px 0px 30px rgb(103 92 92 / 75%);
+    }
+    .hiking-menu .container-fluid .image-list .col-img:hover img{
+        transform: scale(1.2);
+    }
+    .image-list .menu-button a:hover{
+        color: #7f7770;
+        background-color: #fff;
+        border: 2px solid #7f7770;
+    }
+    .hiking-ourstory .ourstory-list .item-button a:hover{
+        color: #e2a355;
+        background-color: #fff;
+    }
+    .subcribe-text .input-group-text:hover{
+        background-color: #000;
+    }
+    .hiking-footer .footer-list .footer-col:first-child .footer-col-icon a:hover{
+        transform: translateY(-5px);
+    }
+}
