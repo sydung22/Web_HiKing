@@ -222,6 +222,7 @@ body{
     width: 100%;
     object-fit: cover;
     transition: 1s;
+    height: 343px;
 }
 .image-list .col-img .img-des{
     padding: 50px 40px 40px;
@@ -569,7 +570,6 @@ body{
     position: absolute;
     bottom: 0;
     right: 0;
-
 }
 /* Footer */
 .hiking-footer{
@@ -623,6 +623,16 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.5s ease-out;
+    position: relative;
+}
+.hiking-footer .footer-list .footer-col ul li a::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    transition: 0.5s;
+    border-top: 2px solid #e2a355;
+    left: 0px;
+    bottom: -3px;
 }
 .hiking-footer .footer-list .footer-col ul li a:hover{
     background-position: -100%;
