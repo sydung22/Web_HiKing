@@ -287,6 +287,10 @@ body{
     font-size: 29px;
     color: #fff;
     max-width: 530px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .hiking-ourstory .ourstory-list .item-button{
     padding-top: 30px;
