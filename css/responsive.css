@@ -249,6 +249,7 @@
     }
     .hiking-banner .banner-text{
         padding-top: 130px;
+        text-align: center;
     }
     .hiking-banner .banner-text p:first-child{
         font-size: 52px;
@@ -413,7 +414,6 @@
     }
     .hiking-banner .banner-text{
         padding: 150px 0;
-        text-align: center;
     }
     .hiking-explore, .hiking-banner{
         min-height: 600px;
