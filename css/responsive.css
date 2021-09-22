@@ -235,9 +235,12 @@
     .container{
         padding: 0 10px;
     }
+    .image-list .menu-button{
+        padding: 40px 0 0;
+    }
     .hiking-menu .container-fluid .image-list .col-img,
     .hiking-contact .container-fluid .contact-list .col-contact{
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
     .hiking-menu .container-fluid .image-list .col-img:not(:nth-child(3n+1))
@@ -248,7 +251,7 @@
         background-position: left;
     }
     .hiking-banner .banner-text{
-        padding-top: 130px;
+        padding: 170px 0;
         text-align: center;
     }
     .hiking-banner .banner-text p:first-child{
@@ -263,17 +266,17 @@
         min-height: 700px;
     }
     .slick-dots{
-        bottom: -180px;
+        bottom: 0px;
     }
     .hiking-menu .container-fluid .menu-title p:first-child{
         margin-bottom: 4px;
     }
-    .hiking-menu .container-fluid .menu-title p:last-child{
-        font-size: 20px;
+    .hiking-menu .container-fluid .image-list, .hiking-menu{
+        padding: 20px 0 30px;
     }
-    .hiking-menu .container-fluid .image-list,
-    .hiking-contact, .hiking-menu{
-        padding: 30px 0;
+    .hiking-contact{
+        padding: 0;
+        margin-top: -15px;
     }
     .hiking-menu .container-fluid .image-list .col-img img{
         height: auto;
@@ -283,7 +286,7 @@
     }
     .hiking-menu .container-fluid .image-list .col-img:nth-child(n+2),
     .hiking-contact .container-fluid .contact-list .col-contact:nth-child(n+2){
-        margin: 30px auto auto;
+        margin: 20px auto auto;
     }
     .hiking-menu .container-fluid .image-list .col-img:nth-child(n+3){
         display: none;
@@ -298,14 +301,25 @@
     }
     .hiking-ourstory .ourstory-list .list-item-text p:first-child,
     .hiking-letter .container-fluid .letter-text p:first-child,
-    .hiking-subcribe .subcribe-text p:first-child, .hiking-menu .container-fluid .menu-title p:first-child{
-        font-size: 8vw;
+    .hiking-subcribe .subcribe-text p:first-child, .hiking-menu .container-fluid .menu-title p:first-child,
+    .contact-list .col-contact .contact-des p:first-child, .image-list .col-img .img-des p:first-child,.hiking-footer .footer-list .footer-col p:first-child{
+        font-size: 28px;
     }
     .hiking-ourstory .ourstory-list .list-item-text p:nth-child(2),
     .hiking-ourstory .ourstory-list .item-button a,.hiking-letter .container-fluid .letter-text p:last-child,
     .hiking-subcribe .subcribe-text p:nth-child(2), .hiking-banner .banner-text a, .subcribe-text .form-control,
-    .subcribe-text .input-group-text{
-        font-size: 20px;
+    .hiking-menu .container-fluid .menu-title p:last-child,.hiking-contact .contact-info p:nth-child(2),
+    .subcribe-text .input-group-text, .image-list .col-img .img-des p:last-child, .hiking-footer .footer-list .footer-col ul li a,
+    .hiking-footer .footer-list .footer-col:first-child p:nth-child(2), .image-list .menu-button a{
+        font-size: 17px;
+    }
+    .image-list .col-img .img-des{
+        padding: 20px 40px 20px;
+        text-align: center;
+    }
+    .image-list .col-img .img-des p:first-child,
+    .contact-list .col-contact .contact-des p:first-child{
+        margin-bottom: 8px;
     }
     .hiking-ourstory .ourstory-list .item-button{
         padding-top: 10px;
@@ -332,19 +346,20 @@
         top: -140px;
     }
     .hiking-explore .explore-text{
-        padding-top: 65px;
+        padding-top: 100px;
     }
     .hiking-explore .explore-text p{
-        font-size: 12vw;
+        font-size: 52px;
     }
     .hiking-contact .container-fluid .contact-list .col-contact img{
-        height: 468px;
+        height: 353.6px;
+        width: 85%;
     }
     .contact-list .col-contact .contact-des{
         padding: 10px 20px;
     }
     .hiking-subcribe{
-        padding: 100px 0 150px;
+        padding: 70px 0 130px;
     }
     .hiking-subcribe .subcribe-text p:first-child{
         margin-bottom: 5px;
@@ -354,7 +369,7 @@
         margin-bottom: 30px;
     }
     .subcribe-text .form-control{
-        height: 60px;
+        height: 55px;
     }
     .hiking-nav ul{
         display: none;
@@ -367,11 +382,11 @@
         position: relative;
     }
     .hiking-footer{
-        padding: 100px 0;
+        padding: 80px 0;
     }
     .hiking-footer .footer-list .footer-col:first-child p:nth-child(2),
     .hiking-footer .footer-list .footer-col p:first-child{
-        margin-bottom: 15px;
+        margin-bottom: 7px;
     }
     .hiking-footer .footer-list .footer-col:nth-child(n+2){
         margin-top: 20px;
@@ -398,6 +413,15 @@
     .hiking-banner .banner-text p:last-child{
         max-width: 100%;
     }
+    .hiking-header .logo img{
+        width: 50px;
+    }
+    .hiking-header .logo{
+        margin: auto;
+    }
+    .hiking-header::before{
+        bottom: -52px;
+    }
 }
 @media (max-width: 575px){
     .container{
@@ -409,18 +433,18 @@
     .hiking-menu .container-fluid .image-list .col-img, .hiking-contact .container-fluid .contact-list .col-contact{
         width: 100%;
     }
-    .hiking-header .logo img{
-        width: 50px;
-    }
     .hiking-banner .banner-text{
-        padding: 150px 0;
+        padding: 115px 0 140px;
     }
     .hiking-explore, .hiking-banner{
         min-height: 600px;
     }
     .slick-dots {
-        bottom: -120px;
-        display: none!important;
+        bottom: 85px;
+    }
+    .slick-dots li{
+        width: 60px;
+        height: 6px;
     }
     .image-list .col-img .img-des{
         padding: 20px 30px 20px;
@@ -449,7 +473,8 @@
         padding: 12px 24px;
     }
     .hiking-banner .banner-text p:first-child{
-        font-size: 45px;
+        font-size: 50px;
+        text-shadow: 4px 1px 5px rgb(0 0 0 / 20%);
     }
     .image-list .col-img .img-des p:first-child{
         font-size: 25px;
@@ -476,18 +501,17 @@
     }
     .hiking-menu{
         padding: 0 0 30px;
-        margin-top: -55px;
+        margin-top: -25px;
     }
     .hiking-footer .footer-list .footer-col p:first-child{
-        font-size: 22px;
+        font-size: 28px;
     }
     .hiking-footer .footer-list .footer-col:first-child p:nth-child(2),
     .hiking-footer .footer-list .footer-col ul li a{
         font-size: 16px;
     }
-    .hiking-footer .footer-list .footer-col:first-child p:nth-child(2), .hiking-footer .footer-list .footer-col p:first-child,
     .image-list .col-img .img-des p:first-child{
-        margin-bottom: 7px
+        margin-bottom: 5px
     }
     .hiking-ourstory .ourstory-list .list-item-text{
         padding: 20px 20px 40px;

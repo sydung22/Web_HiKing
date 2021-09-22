@@ -220,7 +220,6 @@ body{
 }
 .hiking-menu .container-fluid .image-list .col-img img{
     width: 100%;
-    object-fit: cover;
     transition: 1s;
     height: 343px;
 }
