@@ -194,4 +194,7 @@
     .hiking-menu .container-fluid .image-list{
         padding: 40px 0;
     }
+    .hiking-menu .container-fluid .image-list .col-img:nth-child(n+3){
+        display: none;
+    }
 }

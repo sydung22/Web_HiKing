@@ -24,17 +24,40 @@ $( document ).ready(function() {
         $('html, body').animate({scrollTop: 0}, 'slow');
       });
 
-      $(".col-img").slice(0, 3).show()
-      $("#load-more").on('click', function(e){
-          e.preventDefault();
-          $(".col-img:hidden").slice(0, 3).slideDown()
-          if($(".col-img:hidden").length == 0){
-            $("#load-more").fadeOut('slow')
-          }
-      }) 
 
       $('.carousel').carousel({
           interval: 4000 * 1
       });
+
+      var width = $(window).width();
+      if (width >= 992){
+        $("#load-more").on('click', function(e){
+          $(".col-img").slice(0, 3).show()
+            e.preventDefault();
+            $(".col-img:hidden").slice(0, 3).slideDown()
+            if($(".col-img:hidden").length == 0){
+              $("#load-more").fadeOut('slow')
+            }
+        }); 
+      } else if(width <= 991){
+        $("#load-more").on('click', function(e){
+          $(".col-img").slice(0, 2).show()
+            e.preventDefault();
+            $(".col-img:hidden").slice(0, 2).slideDown()
+            if($(".col-img:hidden").length == 0){
+              $("#load-more").fadeOut('slow')
+            }
+        }); 
+      }
+
+    //   $(window).resize(function(){
+    //     var width = $(window).width();
+    //     if (width >= 992){
+    //       $(".col-img").slice(0, 3).show()
+    //     }
+    //     else if(width <= 991){
+    //       $(".col-img").slice(0, 2).show()
+    //     }
+    // });
 
 });
