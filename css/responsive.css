@@ -406,13 +406,10 @@
         width: 50px;
     }
     .hiking-banner .banner-text{
-        padding: 90px 0;
+        padding: 120px 0 100px;
     }
-    .hiking-explore{
-        min-height: 500px;
-    }
-    .hiking-banner{
-        min-height: unset;
+    .hiking-explore, .hiking-banner{
+        min-height: 550px;
     }
     .slick-dots {
         bottom: -120px;
@@ -446,7 +443,7 @@
         padding: 12px 24px;
     }
     .hiking-banner .banner-text p:first-child{
-        font-size: 32px;
+        font-size: 40px;
     }
     .image-list .col-img .img-des p:first-child{
         font-size: 25px;
