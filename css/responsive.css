@@ -42,7 +42,7 @@
         left: 0;
     }
 }
-@media(max-width: 1400px){
+@media(max-width: 1800px){
     .hiking-letter::after, .hiking-subcribe::after, .hiking-explore::after{
         bottom: -5px;
         z-index: 3;
@@ -50,6 +50,9 @@
     .hiking-banner::after{
         bottom: -5px;
     }
+}
+@media(max-width: 1400px){
+
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
     .container{
@@ -69,6 +72,9 @@
     }
     .hiking-contact .container-fluid .contact-list .col-contact img{
         height: 353.33px;
+    }
+    .hiking-banner .banner-text {
+        padding-top: 230px;
     }
 }
 @media (max-width:1199px){
@@ -121,6 +127,7 @@
     .hiking-contact .container-fluid .contact-list .col-contact img{
         height: 293.33px;
     }
+
 }
 @media (min-width: 768px) and (max-width: 991px){
     .hiking-ourstory .ourstory-list .list-item-text{
@@ -182,7 +189,7 @@
         padding-top: 170px;
     }
     .slick-dots {
-        bottom: -140px;
+        bottom: -50px;
     }
     .hiking-banner .banner-text p:nth-child(2){
         margin-bottom: 50px;
