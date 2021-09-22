@@ -403,7 +403,7 @@
     }
     .slick-dots {
         bottom: -120px;
-        display: none;
+        display: none!important;
     }
     .image-list .col-img .img-des{
         padding: 20px 30px 20px;
