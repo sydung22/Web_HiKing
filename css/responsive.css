@@ -396,10 +396,10 @@
         width: 50px;
     }
     .hiking-banner .banner-text{
-        padding-top: 120px;
+        padding-top: 90px;
     }
     .hiking-banner, .hiking-explore{
-        min-height: 520px;
+        min-height: 500px;
     }
     .slick-dots {
         bottom: -120px;
