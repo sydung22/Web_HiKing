@@ -698,7 +698,7 @@ body{
     cursor: pointer;
 }
 .slick-dots{
-    bottom: -100px;
+    bottom: -200px;
 }
 .slick-dots li button{
     display: none;

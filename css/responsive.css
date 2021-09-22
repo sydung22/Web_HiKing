@@ -76,6 +76,9 @@
     .hiking-banner .banner-text {
         padding-top: 230px;
     }
+    .slick-dots{
+        bottom: -258px;
+    }
 }
 @media (max-width:1199px){
     .hiking-explore .explore-text{
@@ -192,7 +195,7 @@
         padding-top: 170px;
     }
     .slick-dots {
-        bottom: -50px;
+        bottom: -145px;
     }
     .hiking-banner .banner-text p:nth-child(2){
         margin-bottom: 50px;
