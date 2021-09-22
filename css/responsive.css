@@ -499,4 +499,8 @@
     .hiking-banner .banner-text p:last-child{
         margin-top: 25px;
     }
+    .hiking-contact .contact-info p:first-child{
+        font-size: 70px;
+        line-height: 0.4;
+    }
 }
