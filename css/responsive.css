@@ -167,14 +167,17 @@
         margin-left: unset;
     }
     .hiking-footer .footer-list .footer-col:nth-child(2n+2){
-        padding-left: 180px!important;
+        padding-left: 100px!important;
     }
     .hiking-footer .footer-list .footer-col:nth-child(n+3){
-        margin-top: 60px;
+        margin-top: 30px;
     }
     .hiking-subcribe .subcribe-text p:first-child{
         font-size: 7vw;
         margin-bottom: 7px;
+    }
+    .hiking-footer .footer-list .footer-col:first-child p:nth-child(2){
+        margin-bottom: 12px;
     }
     .hiking-subcribe .subcribe-text p:nth-child(2){
         font-size: 2.5vw;
@@ -229,6 +232,9 @@
     }
     .hiking-contact .container-fluid .contact-list .col-contact img{
         height: 345px;
+    }
+    .hiking-explore::before, .hiking-footer::before{
+        top: -34px;
     }
 }
 @media (max-width: 767px){
