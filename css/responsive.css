@@ -402,6 +402,9 @@
     .container{
         padding: 0 20px;
     }
+    .hiking-header .container{
+        padding-top: 10px;
+    }
     .hiking-menu .container-fluid .image-list .col-img, .hiking-contact .container-fluid .contact-list .col-contact{
         width: 100%;
     }
@@ -488,5 +491,11 @@
     }
     .hiking-ourstory .ourstory-list .list-item-text{
         padding: 20px 20px 40px;
+    }
+    .hiking-banner .banner-text p:nth-child(2){
+        margin-bottom: 25px;
+    }
+    .hiking-banner .banner-text p:last-child{
+        margin-top: 25px;
     }
 }
