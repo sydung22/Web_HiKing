@@ -146,7 +146,7 @@
         margin-left: 30px;
     }
     .hiking-footer .footer-list .footer-col:nth-child(2n+2){
-        padding-left: 100px!important;
+        padding-left: 180px!important;
     }
     .hiking-footer .footer-list .footer-col:nth-child(n+3){
         margin-top: 60px;
@@ -163,5 +163,35 @@
     }
     .hiking-banner .banner-text p:nth-child(2){
         margin-bottom: 50px;
+    }
+    .hiking-subcribe .subcribe-text p:nth-child(2){
+        margin-bottom: 40px;
+    }
+    .hiking-menu .container-fluid .menu-title p:first-child{
+        margin-bottom: 10px;
+    }
+    .image-list .col-img .img-des{
+        padding: 30px;
+    }
+    .hiking-menu{
+        padding: 30px 0;
+    }
+    .hiking-letter{
+        padding: 300px 0 200px;
+    }
+    #letter-carousel .carousel-control-next-icon, #letter-carousel .carousel-control-prev-icon{
+        display: none;
+    }
+    .hiking-subcribe{
+        padding: 180px 0;
+    }
+    .hiking-footer{
+        padding: 270px 0 70px;
+    }
+    .hiking-contact .contact-info{
+        padding-top: 10px;
+    }
+    .hiking-menu .container-fluid .image-list{
+        padding: 40px 0;
     }
 }
