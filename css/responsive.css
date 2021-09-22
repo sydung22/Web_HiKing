@@ -43,12 +43,15 @@
     }
 }
 @media(max-width: 1400px){
-    .hiking-banner::after, .hiking-letter::after, .hiking-subcribe::after, .hiking-explore::after{
+    .hiking-letter::after, .hiking-subcribe::after, .hiking-explore::after{
         bottom: -5px;
         z-index: 3;
     }
+    .hiking-banner::after{
+        bottom: -5px;
+    }
 }
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
     .container{
         padding: 0 50px;
     }
@@ -63,6 +66,9 @@
     }
     .hiking-explore .explore-text{
         padding-top: 670px;
+    }
+    .hiking-contact .container-fluid .contact-list .col-contact img{
+        height: 353.33px;
     }
 }
 @media (max-width:1199px){
@@ -83,10 +89,12 @@
     .hiking-ourstory .ourstory-list .list-item-text p:nth-child(2){
         font-size: 2.2vw;
     }
-    .hiking-menu .container-fluid .image-list .col-img{
+    .hiking-menu .container-fluid .image-list .col-img,
+    .hiking-contact .container-fluid .contact-list .col-contact{
         width: calc((100% - 80px)/3);
     }
-    .hiking-menu .container-fluid .image-list .col-img:not(:nth-child(3n+1)){
+    .hiking-menu .container-fluid .image-list .col-img:not(:nth-child(3n+1)),
+    .hiking-contact .container-fluid .contact-list .col-contact:nth-child(n+2){
         margin-left: 40px;
     }
     .hiking-menu .container-fluid .image-list .col-img img{
@@ -109,6 +117,9 @@
     }
     .hiking-explore .explore-text p{
         text-align: center;
+    }
+    .hiking-contact .container-fluid .contact-list .col-contact img{
+        height: 293.33px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -142,8 +153,11 @@
     .hiking-contact .container-fluid .contact-list .col-contact{
         width: calc((100% - 30px)/2);
     }
-    .hiking-contact .container-fluid .contact-list .col-contact:nth-child(n+2){
+    .hiking-contact .container-fluid .contact-list .col-contact:nth-child(2n+2){
         margin-left: 30px;
+    }
+    .hiking-contact .container-fluid .contact-list .col-contact:nth-child(n+2){
+        margin-left: unset;
     }
     .hiking-footer .footer-list .footer-col:nth-child(2n+2){
         padding-left: 180px!important;
@@ -160,6 +174,15 @@
     }
     .hiking-banner .banner-text p:first-child{
         font-size: 89px;
+    }
+    .hiking-banner{
+        min-height: 800px;
+    }
+    .hiking-banner .banner-text{
+        padding-top: 170px;
+    }
+    .slick-dots {
+        bottom: -140px;
     }
     .hiking-banner .banner-text p:nth-child(2){
         margin-bottom: 50px;
@@ -196,5 +219,213 @@
     }
     .hiking-menu .container-fluid .image-list .col-img:nth-child(n+3){
         display: none;
+    }
+    .hiking-contact .container-fluid .contact-list .col-contact img{
+        height: 345px;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        padding: 0 10px;
+    }
+    .hiking-menu .container-fluid .image-list .col-img,
+    .hiking-contact .container-fluid .contact-list .col-contact{
+        width: 90%;
+        margin: auto;
+    }
+    .hiking-menu .container-fluid .image-list .col-img:not(:nth-child(3n+1))
+    {
+        margin-left: unset;
+    }
+    .hiking-banner .banner-text{
+        padding-top: 130px;
+    }
+    .hiking-banner .banner-text p:first-child{
+        font-size: 52px;
+    }
+    .hiking-banner .banner-text p:nth-child(2){
+        margin-bottom: 35px;
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    .hiking-banner,.hiking-explore{
+        min-height: 700px;
+    }
+    .slick-dots{
+        bottom: -180px;
+    }
+    .hiking-menu .container-fluid .menu-title p:first-child{
+        margin-bottom: 4px;
+    }
+    .hiking-menu .container-fluid .menu-title p:last-child{
+        font-size: 20px;
+    }
+    .hiking-menu .container-fluid .image-list,
+    .hiking-contact, .hiking-menu{
+        padding: 30px 0;
+    }
+    .hiking-menu .container-fluid .image-list .col-img img{
+        height: auto;
+    }
+    .hiking-menu .container-fluid .image-list .col-img:nth-child(n+4){
+        margin-top: unset;
+    }
+    .hiking-menu .container-fluid .image-list .col-img:nth-child(n+2),
+    .hiking-contact .container-fluid .contact-list .col-contact:nth-child(n+2){
+        margin: 30px auto auto;
+    }
+    .hiking-menu .container-fluid .image-list .col-img:nth-child(n+3){
+        display: none;
+    }
+    .hiking-ourstory .ourstory-list .list-item-text{
+        padding: 4% 4% 7%;
+        text-align: center;
+    }
+    .hiking-ourstory .ourstory-list .list-item-text p:first-child,
+    .hiking-ourstory .ourstory-list .list-item-text p:nth-child(2){
+        max-width: 100%;
+    }
+    .hiking-ourstory .ourstory-list .list-item-text p:first-child,
+    .hiking-letter .container-fluid .letter-text p:first-child,
+    .hiking-subcribe .subcribe-text p:first-child, .hiking-menu .container-fluid .menu-title p:first-child{
+        font-size: 40px;
+    }
+    .hiking-ourstory .ourstory-list .list-item-text p:nth-child(2),
+    .hiking-ourstory .ourstory-list .item-button a,.hiking-letter .container-fluid .letter-text p:last-child,
+    .hiking-subcribe .subcribe-text p:nth-child(2), .hiking-banner .banner-text a, .subcribe-text .form-control,
+    .subcribe-text .input-group-text{
+        font-size: 20px;
+    }
+    .hiking-ourstory .ourstory-list .item-button{
+        padding-top: 10px;
+    }
+    .hiking-ourstory{
+        position: relative;
+        z-index: 5;
+    }
+    .hiking-letter::before{
+        z-index: 2;
+        top: -100px;
+    }
+    .hiking-letter::after{
+        z-index: 1;
+    }
+    .hiking-letter{
+        padding: 150px 0 150px;
+        z-index: 4;
+    }
+    #letter-carousel .carousel-control-next-icon, #letter-carousel .carousel-control-prev-icon{
+        display: none;
+    }
+    .hiking-explore::before,.hiking-subcribe::before,     .hiking-footer::before{
+        top: -140px;
+    }
+    .hiking-explore .explore-text{
+        padding-top: 100px;
+    }
+    .hiking-explore .explore-text p{
+        font-size: 12vw;
+    }
+    .hiking-contact .container-fluid .contact-list .col-contact img{
+        height: 468px;
+    }
+    .contact-list .col-contact .contact-des{
+        padding: 10px 20px;
+    }
+    .hiking-subcribe{
+        padding: 100px 0 150px;
+    }
+    .hiking-subcribe .subcribe-text p:first-child{
+        margin-bottom: 5px;
+    }
+    .hiking-subcribe .subcribe-text p:nth-child(2){
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .subcribe-text .form-control{
+        height: 60px;
+    }
+    .hiking-nav ul{
+        display: none;
+    }
+    .hiking-subcribe{
+        z-index: 3;
+    }
+    .hiking-contact{
+        z-index: 4;
+        position: relative;
+    }
+    .hiking-footer{
+        padding: 100px 0;
+    }
+    .hiking-footer .footer-list .footer-col:first-child p:nth-child(2),
+    .hiking-footer .footer-list .footer-col p:first-child{
+        margin-bottom: 15px;
+    }
+    .hiking-footer .footer-list .footer-col:nth-child(n+2){
+        margin-top: 32px;
+    }
+    .hiking-footer .footer-list .footer-col{
+        text-align: center;
+    }
+    .footer-col-icon{
+        justify-content: center;
+        align-items: center;
+    }
+    .hiking-footer .footer-list .footer-col ul{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    /* .hiking-footer .footer-list .footer-col ul li{
+        padding-right: 20px;
+    } */
+    .hiking-contact .contact-info{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 575px){
+    .container{
+        padding: 0 20px;
+    }
+    .hiking-menu .container-fluid .image-list .col-img, .hiking-contact .container-fluid .contact-list .col-contact{
+        width: 100%;
+    }
+    .hiking-header .logo img{
+        width: 70px;
+    }
+    .hiking-banner .banner-text{
+        padding-top: 120px;
+    }
+    .hiking-banner, .hiking-explore{
+        min-height: 650px;
+    }
+    .slick-dots {
+        bottom: -140px;
+    }
+    .image-list .col-img .img-des{
+        padding: 30px 50px 20px;
+    }
+    .hiking-contact .container-fluid .contact-list .col-contact img{
+        width: 90vw;
+        height: 90vw;
+    }
+    .hiking-ourstory .ourstory-list .list-item-text p:first-child,
+    .hiking-letter .container-fluid .letter-text p:first-child,
+    .hiking-subcribe .subcribe-text p:first-child, .hiking-menu .container-fluid .menu-title p:first-child{
+        font-size: 8.5vw;
+    }
+    .hiking-ourstory .ourstory-list .list-item-text p:nth-child(2),
+    .hiking-ourstory .ourstory-list .item-button a,.hiking-letter .container-fluid .letter-text p:last-child,
+    .hiking-subcribe .subcribe-text p:nth-child(2), .hiking-banner .banner-text a, .subcribe-text .form-control,
+    .subcribe-text .input-group-text, .hiking-contact .contact-info p:nth-child(2){
+        font-size: 18px;
+    }
+    .subcribe-text .form-control{
+        height: 51px;
+    }
+    .subcribe-text .input-group-text{
+        padding: 12px 24px;
     }
 }

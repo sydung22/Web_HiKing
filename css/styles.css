@@ -443,7 +443,7 @@ body{
 .hiking-contact .container-fluid .contact-list .col-contact img{
     object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 386.66px;
     border-radius: 50%;
 }
 .contact-list .col-contact .contact-des{
