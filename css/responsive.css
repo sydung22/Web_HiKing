@@ -394,6 +394,9 @@
     .hiking-contact .contact-info{
         padding-top: 10px;
     }
+    .hiking-banner .banner-text p:last-child{
+        max-width: 100%;
+    }
 }
 @media (max-width: 575px){
     .container{
@@ -406,10 +409,11 @@
         width: 50px;
     }
     .hiking-banner .banner-text{
-        padding: 120px 0 100px;
+        padding: 150px 0 100px;
+        text-align: center;
     }
     .hiking-explore, .hiking-banner{
-        min-height: 550px;
+        min-height: 600px;
     }
     .slick-dots {
         bottom: -120px;
@@ -469,7 +473,7 @@
     }
     .hiking-menu{
         padding: 0 0 30px;
-        margin-top: -60px;
+        margin-top: -20px;
     }
     .hiking-footer .footer-list .footer-col p:first-child{
         font-size: 22px;
