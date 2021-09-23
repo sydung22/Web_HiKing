@@ -652,7 +652,7 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #e2a355;
+    background-color: #54524f;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     color: #fff;
     border:none;
@@ -670,7 +670,7 @@ body{
     visibility: visible;
   }
   #btnScrolltoTop:active{
-    background-color: #deb37e ;
+    background-color: #000 ;
   }
 /* Carousel */
 #person-carousel .carousel-control-next,#person-carousel .carousel-control-prev{
