@@ -153,7 +153,14 @@
     .hiking-nav ul li{
         margin-top: 25px;
     }
-    
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    .hiking-banner{
+        margin-top: 0;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .hiking-ourstory .ourstory-list .list-item-text{
@@ -212,13 +219,13 @@
         font-size: 89px;
     }
     .hiking-banner{
-        min-height: 800px;
+        min-height: 1000px;
     }
     .hiking-banner .banner-text{
-        padding-top: 170px;
+        padding-top: 270px;
     }
     .slick-dots {
-        bottom: -145px;
+        bottom: -240px;
     }
     .hiking-banner .banner-text p:nth-child(2){
         margin-bottom: 50px;
@@ -301,7 +308,7 @@
         background-position: left;
     }
     .hiking-banner .banner-text{
-        padding: 170px 0;
+        padding: 200px 0 170px;
         text-align: center;
     }
     .hiking-banner .banner-text p:first-child{
@@ -484,13 +491,13 @@
         width: 100%;
     }
     .hiking-banner .banner-text{
-        padding: 115px 0 140px;
+        padding: 140px 0 170px;
     }
     .hiking-explore, .hiking-banner{
         min-height: 600px;
     }
     .slick-dots {
-        bottom: 85px;
+        bottom: 110px;
     }
     .slick-dots li{
         width: 60px;
