@@ -71,6 +71,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: block;
 }
 .hiking-nav ul li .input-form input{
     border: unset;
