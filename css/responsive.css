@@ -132,6 +132,29 @@
     }
 
 }
+@media (max-width: 991px){
+    .btn-bar{
+        display: block;
+    }
+    .hiking-header .container{
+        display: block;
+        text-align: center;
+    }
+    .hiking-nav{
+        display: none;
+    }
+    .hiking-nav ul{
+        display: block;
+        padding: 0 0 15px;
+    }
+    .hiking-nav ul li:not(:first-child){
+        margin-left: unset;
+    }
+    .hiking-nav ul li{
+        margin-top: 25px;
+    }
+    
+}
 @media (min-width: 768px) and (max-width: 991px){
     .hiking-ourstory .ourstory-list .list-item-text{
         padding: 7% 5% 5% 6%;
@@ -243,6 +266,24 @@
 @media (max-width: 767px){
     .container{
         padding: 0 10px;
+    }
+    .btn-bar{
+        top: 0px;
+    }
+    .menu-btn_burger{
+        width: 32px;
+        height: 5px;
+    }
+    .menu-btn_burger::before,
+    .menu-btn_burger::after{
+        width: 32px;
+        height: 5px;
+    }
+    .menu-btn_burger::before{
+        transform:translateY(-10px);
+    }
+    .menu-btn_burger::after{
+        transform:translateY(10px);
     }
     .image-list .menu-button{
         padding: 40px 0 0;
@@ -379,9 +420,6 @@
     }
     .subcribe-text .form-control{
         height: 55px;
-    }
-    .hiking-nav ul{
-        display: none;
     }
     .hiking-subcribe{
         z-index: 3;

@@ -50,6 +50,24 @@ $( document ).ready(function() {
         }); 
       }
 
+
+    const menuBtn = document.querySelector('.btn-bar');
+    let menuOpen = false;
+    menuBtn.addEventListener('click', () => {
+
+    if(!menuOpen) {
+      menuBtn.classList.add('open');
+      menuOpen = true;
+    }else{
+      menuBtn.classList.remove('open');
+      menuOpen = false;
+    }
+});
+
+
+$('.btn-bar').click(function(){
+  $('.hiking-nav').slideToggle();
+})
     //   $(window).resize(function(){
     //     var width = $(window).width();
     //     if (width >= 992){
