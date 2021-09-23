@@ -268,7 +268,7 @@
         padding: 0 10px;
     }
     .btn-bar{
-        top: 0px;
+        top: 10px;
     }
     .menu-btn_burger{
         width: 32px;
@@ -473,6 +473,9 @@
 @media (max-width: 575px){
     .container{
         padding: 0 20px;
+    }
+    .btn-bar{
+        top: 0px;
     }
     .hiking-header .container{
         padding-top: 10px;
