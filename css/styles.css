@@ -471,9 +471,6 @@ body{
     transform: scale(0.9);
     transition: 1s;
 }
-.hiking-contact .container-fluid .contact-list .col-contact a:hover img{
-    transform: scale(0.9);
-}
 .circle-box h1, .circle-box p{
     display: flex;
     justify-content: center;
